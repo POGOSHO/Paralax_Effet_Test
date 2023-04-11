@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <title>Glaces - Accueil</title>
+    </head>
+    <body>
+
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <img src="assets/svg/logo_violetPlan de travail 1.svg" alt="logo_violet" class="nav__logo">
+                </div>
+                
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Accueil</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Glaces</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Infos</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <div class="home__img">
+                        <img src="assets/img/img1.png" alt="" data-speed="-2" class="move">
+                        <img src="assets/img/img2.png" alt="" data-speed="2" class="move">
+                        <img src="assets/img/img3.png" alt="" data-speed="2" class="move">
+                        <img src="assets/img/img4.png" alt="" data-speed="-2" class="move">
+                        <img src="assets/img/img5.png" alt="" data-speed="-2" class="move">
+                        <img src="assets/img/img6.png" alt="" data-speed="2" class="move">
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Glaces<br> Diverses</h1>
+                        <p class="home__description">Bienvenue. Venez découvrir tous nos <br> types de glaces.</p>
+                        <a href="#" class="home__button">Découvrir</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
